@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:library_demo_project/models/book_model.dart';
 import 'package:library_demo_project/services/calculator.dart';
-import 'package:library_demo_project/views/update_book_view_model.dart';
+import 'package:library_demo_project/views/updatebook/update_book_view_model.dart';
 import 'package:provider/provider.dart';
 
 class UpdateBookView extends StatefulWidget {

@@ -1,13 +1,13 @@
 import 'dart:io';
 
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:library_demo_project/models/book_model.dart';
 import 'package:library_demo_project/models/borrow_model.dart';
-import 'package:library_demo_project/views/borrow_form_view.dart';
-import 'package:library_demo_project/views/borrowed_list_view_model.dart';
+import 'package:library_demo_project/views/borrowedlist/borrowed_list_view_model.dart';
 import 'package:provider/provider.dart';
+
+import 'borrow_form_view.dart';
 
 class BorrowedListView extends StatefulWidget {
   final Book book;

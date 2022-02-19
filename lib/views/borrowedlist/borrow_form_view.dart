@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:library_demo_project/models/borrow_model.dart';
 import 'package:library_demo_project/services/calculator.dart';
-import 'package:library_demo_project/views/borrowed_list_view_model.dart';
+import 'package:library_demo_project/views/borrowedlist/borrowed_list_view_model.dart';
 import 'package:provider/provider.dart';
 
 class BorrowForm extends StatefulWidget {
@@ -213,9 +213,7 @@ class _BorrowFormState extends State<BorrowForm> {
                     ),
                   ],
                 ),
-                SizedBox(
-                  height: 10,
-                ),
+                SizedBox(height: 10),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [

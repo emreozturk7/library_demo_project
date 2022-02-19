@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:library_demo_project/models/book_model.dart';
-import 'package:library_demo_project/views/add_book_view.dart';
-import 'package:library_demo_project/views/books_view_model.dart';
-import 'package:library_demo_project/views/borrowed_list_view.dart';
-import 'package:library_demo_project/views/update_book_view.dart';
+import 'package:library_demo_project/views/addbook/add_book_view.dart';
+import 'package:library_demo_project/views/books/books_view_model.dart';
+import 'package:library_demo_project/views/borrowedlist/borrowed_list_view.dart';
+import 'package:library_demo_project/views/updatebook/update_book_view.dart';
 import 'package:provider/provider.dart';
 
 class BooksView extends StatefulWidget {
