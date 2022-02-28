@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
           builder: (context, snapshot) {
             if (snapshot.hasError) {
               return Center(
-                child: Text('Beklenilmeyen bir hata oluştu'),
+                child: Text('Beklenilmeyen bir hata oluştu}'),
               );
             } else if (snapshot.hasData) {
               return BooksView();
