@@ -1,4 +1,4 @@
-# Kütüphane demo uygulaması.
+# Kütüphane uygulaması.
 
 ### Firebase kullanılarak basit CRUD işlemleri yapılmıştır ve projede MVVM mimarisi kullanılmıştır.
 
